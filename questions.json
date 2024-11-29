@@ -1,0 +1,113 @@
+[
+    {
+      "questionNo": "Q1",
+      "question": "Find the value of X from the following figure.<BR><img width='80%' src='./assests/images/1.jpg'>",
+      "options": [
+        "1",
+        "11",
+        "12",
+        "21"
+      ],
+      "correct": 3
+    },
+    {
+      "questionNo": "Q2",
+      "question": "Which fraction is in its lowest form?",
+      "options": [
+        "./assests/optionImg/1.jpg",
+        "./assests/optionImg/2.jpg",
+        "./assests/optionImg/3.jpg",
+        "./assests/optionImg/4.jpg"
+      ],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q3",
+      "question": "The fraction 27/4 lies between which two integers on the number line?",
+      "options": [
+        "0 and 1",
+        "11 and 12",
+        "3 and 4",
+        "6 and 7"
+      ],
+      "correct": 3
+    },
+    {
+      "questionNo": "Q4",
+      "question": "What is the process to find an equivalent fraction for <BR><img width='80%' src='./assests/images/36.png'>",
+      "options": [
+        "Divide both numerator and denominator by 3",
+        "Subtract 1 from both numerator and denominator",
+        "Multiply both numerator and denominator by 2",
+        "Add 1 to both numerator and denominator"
+      ],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q5",
+      "question": "Arrange the following in ascending order:<BR><img width='80%' src='./assests/images/37.png'>",
+      "options": [
+        "./assests/optionImg/5.jpg",
+        "./assests/optionImg/6.jpg",
+        "./assests/optionImg/7.jpg",
+        "./assests/optionImg/8.jpg"
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q6",
+      "question": "What is the simplest form of <BR><img width='80%' src='./assests/images/38.png'>",
+      "options": [
+        "./assests/optionImg/9.jpg",
+        "./assests/optionImg/10.jpg",
+        "./assests/optionImg/11.jpg",
+        "./assests/optionImg/12.jpg"
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q7",
+      "question": "If 6/8 is simplified to its simplest form and converted into an equivalent fraction with a denominator of 16, what is the numerator?",
+      "options": [
+        "9",
+        "12",
+        "8",
+        "10"
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q8",
+      "question": "Which of the following fractions represent the same point on the number line?",
+      "options": [
+        "./assests/optionImg/13.jpg",
+        "./assests/optionImg/14.jpg",
+        "./assests/optionImg/15.jpg",
+        "./assests/optionImg/16.jpg"
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q9",
+      "question": "Find the value of x? If the given gractions are equivalent fraction<BR><img width='80%' src='./assests/images/39.png'>",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q10",
+      "question": "Which fraction is smallest?",
+      "options": [
+        "./assests/optionImg/17.jpg",
+        "./assests/optionImg/18.jpg",
+        "./assests/optionImg/19.jpg",
+        "./assests/optionImg/20.jpg"
+      ],
+      "correct": 1
+    }
+  ]
+  

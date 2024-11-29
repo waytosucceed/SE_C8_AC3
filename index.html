@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Represent a fraction on a number line : </div>
+
+        <div class="lesson-content">
+          <div>
+           
+            <p>
+              Representing fractions on a number line helps visualize their value as part of a whole. Follow these steps:
+            </p>
+            <h2>Steps to Represent a Fraction on a Number Line</h2>
+            <p>Representing fractions on a number line helps visualize their value as part of a whole. Follow these steps:</p>
+            <ol>
+              <li><b>Check the Type of Fraction:</b>
+                  <ul>
+                    <li>If the fraction is proper ( 
+                      <math><mfrac bevelled="true"><mfrac><msup><mi>a</mi></msup></mfrac><mfrac><msup><mi>b</mi></msup></mfrac></mfrac></math> , where a < b), it lies between 0 and 1 </li>
+                    <li>If the fraction is improper ( 
+                      <math><mfrac bevelled="true"><mfrac><msup><mi>a</mi></msup></mfrac><mfrac><msup><mi>b</mi></msup></mfrac></mfrac></math>, where a ≥ b ), find the whole number part by dividing a  by b .</li>
+                  </ul>
+              </li>
+              <li>
+                <b>Draw the Number Line:</b>
+                <ul>
+                  <li>For a proper fraction, mark 0 and 1.</li>
+                  <li>For an improper fraction, mark the whole numbers between which the fraction lies (e.g., 2 and 3 for <math><mfrac bevelled="true"><mfrac><msup><mi>7</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math>).</li>
+                </ul>
+              </li>
+              <li><b>Divide the Section into Equal Parts:</b>
+                <ul>
+                  <li>Divide the space between two consecutive whole numbers into b equal parts (denominator).</li>
+                </ul>
+              </li>
+              <li>
+                <b>Locate the Fraction:</b>
+                <ul>
+                  <li>Count a part (numerator) starting from 0 or the lower whole number.</li>
+                </ul>
+              </li>
+              <li>
+                <b>Mark and Label the Fraction:</b>
+                <ul>
+                  <li>Mark the point and write the fraction to show its position.</li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+             <b> Example </b>: Represent <math><mfrac bevelled="true"><mfrac><msup><mi>7</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> :
+            </p>
+            <ul>
+              <li><math><mfrac bevelled="true"><mfrac><msup><mi>7</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> is improper ( 7 ÷ 4 remainder 3, so mixed fraction is 1<math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> ), so it lies between 1 and 2.</li>
+              <li>Divide the space between 1 and 2 into 4 equal parts.</li>
+              <li>Count 3 parts after 1 and mark <math><mfrac bevelled="true"><mfrac><msup><mi>7</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math>.</li>
+            </ul>
+            <img width="80%" src="./assests/explaination/1.jpg" alt="">
+            <h2>Equivalent Fractions</h2>
+            <p>Two fractions are equivalent if they represent the same part of a whole, even if the numerator and denominator are different. To find an equivalent fraction, multiply or divide both the numerator and denominator by the same number.<br><b>Examples:</b></p>
+            <ul>
+              <li><math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>4</mi></msup></mfrac><mfrac><msup><mi>6</mi></msup></mfrac></mfrac></math> (Multiply numerator and denominator by 2)</li>
+              <li><math><mfrac bevelled="true"><mfrac><msup><mi>10</mi></msup></mfrac><mfrac><msup><mi>15</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math>  (Divide numerator and denominator by 5)</li>
+            </ul>
+            <p>
+              <b>Tip:</b> Always simplify fractions to their smallest form to make them easier to understand.<br><br>
+              <u>Note:</u> Equivalent fractions are equal fractions because they represent the same value.
+            </p>
+            <br><img width='20%' src="./assests/explaination/2.jpg" alt="">
+            <h2>Comparing Fractions</h2>
+            <p>When comparing fractions, we want to see which is larger or smaller. There are two methods:</p>
+            <ol>
+              <li>
+               <b> Same Denominator:</b> If the denominators are the same, compare the numerators directly.
+               <br><b>Example:</b> <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>8</mi></msup></mfrac></mfrac></math> and <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>8</mi></msup></mfrac></mfrac></math> : 5 > 3. So, <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>8</mi></msup></mfrac></mfrac></math> > <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>8</mi></msup></mfrac></mfrac></math>
+              </li>
+              <li>
+                <b>Different Denominators:</b> Find a common denominator, then compare the numerators.
+                <br><b>Example:</b> compare <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> and <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math>
+              </li>
+            </ol>
+            <p>
+              To create a common denominator, multiply the numerator and denominator of the first fraction by 4, and the numerator and denominator of the second fraction by 3. This ensures both fractions have the same denominator, which is the LCM (Least Common Multiple) of their original denominators.<br>
+              <b>Convert :</b> <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2 × 4</mi></msup></mfrac><mfrac><msup><mi>3 × 4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>8</mi></msup></mfrac><mfrac><msup><mi>12</mi></msup></mfrac></mfrac></math>, <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>3 × 3</mi></msup></mfrac><mfrac><msup><mi>4 × 3</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>9</mi></msup></mfrac><mfrac><msup><mi>12</mi></msup></mfrac></mfrac></math>
+            </p>
+            <br><br>
+            <p>Now compare them as in the case of the same denominator.
+              <br>Since 9 > 8, so <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> > <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>3</mi></msup></mfrac></mfrac></math>.</p>
+              <h2>Reducing Fractions to the Lowest Form</h2>
+              <p>To simplify a fraction, divide both the numerator and denominator by their greatest common divisor (GCD). This process is called reducing a fraction to its lowest form.
+                <br>Example : Simplify <math><mfrac bevelled="true"><mfrac><msup><mi>18</mi></msup></mfrac><mfrac><msup><mi>24</mi></msup></mfrac></mfrac></math>
+                <br>GCD(18, 24) = 6
+                <br>Dividing numerator and denominator by 6 we have : <math><mfrac bevelled="true"><mfrac><msup><mi>18</mi></msup></mfrac><mfrac><msup><mi>24</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>18 ÷ 6</mi></msup></mfrac><mfrac><msup><mi>24 ÷ 6</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math>.</p>
+                <h2>Short Division Method for Simplification</h2>
+                <p>Use short division to simplify quickly:</p>
+                <ol>
+                  <li>Divide the numerator and denominator by small common factors repeatedly.</li>
+                  <li>Stop when no further division is possible.</li>
+                </ol>
+                <p>
+                  Example: Simplify <math><mfrac bevelled="true"><mfrac><msup><mi>48</mi></msup></mfrac><mfrac><msup><mi>60</mi></msup></mfrac></mfrac></math> 
+<br>Divide both by 2: <math><mfrac bevelled="true"><mfrac><msup><mi>48</mi></msup></mfrac><mfrac><msup><mi>60</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>24</mi></msup></mfrac><mfrac><msup><mi>30</mi></msup></mfrac></mfrac></math>
+<br>Dividing both by 2 again : <math><mfrac bevelled="true"><mfrac><msup><mi>24</mi></msup></mfrac><mfrac><msup><mi>30</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>12</mi></msup></mfrac><mfrac><msup><mi>15</mi></msup></mfrac></mfrac></math>
+<br>Divide by 3: <math><mfrac bevelled="true"><mfrac><msup><mi>12</mi></msup></mfrac><mfrac><msup><mi>15</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>4</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math>
+                </p>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>
